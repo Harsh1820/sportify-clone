@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Listening is everything</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotifylogo.png" alt="Spotify">Spotify&#174;</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Naruto Shippuden Openings - Nostalgic Trip</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Hero's Come Back</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="0" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Distance</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="1" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Blue Bird</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="2" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Closer</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="3" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Sha La La</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="4" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Sign</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="5" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Tōmei datta Sekai</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="6" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Diver</span>
+                    <span class="songListPlay"><span class="timestamp">3:23 <i id="7" class="far songItemPlay fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="1000" value="0">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="beat.gif" width="43px" alt="playing" id="gif"><span id="masterSongName">Hero's Come Back</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/30ea296f30.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
